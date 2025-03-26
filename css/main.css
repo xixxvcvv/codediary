@@ -19,7 +19,6 @@
 }
 .month>li:hover .day{
   display:block;
-  transition:.5s ease-in-out;
 }
 
 .day{
