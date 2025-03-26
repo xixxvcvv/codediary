@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+.wrap{width:1300px; margin:0 auto;}
+.wrap>p{color:#444;}
+
+.header{display:flex; align-items:center; justify-content:space-between;}
+.header>p{
+  font-size:16px;
+  font-weight:400;
+}
+
