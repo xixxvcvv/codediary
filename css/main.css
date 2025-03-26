@@ -18,11 +18,14 @@
   background:#ddd;
 }
 .month>li:hover .day{
-  display:block;
+  height: 100%;
+  opacity:1;
 }
 
 .day{
-  display:none;
+  height:0;
+  opacity:0;
+  transition:.5s ease;
 }
 .day>li>a{
   background:#eee;
