@@ -17,6 +17,14 @@
   width:100%; text-align:center;
   background:#ddd;
 }
+.month>li:hover .day{
+  display:block;
+  transition:.5s ease-in-out;
+}
+
+.day{
+  display:none;
+}
 .day>li>a{
   background:#eee;
 }
