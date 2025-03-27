@@ -9,6 +9,10 @@
   margin:0 0 5px 0;
 }
 
+section{
+  display:flex;
+}
+
 .month>li{
   width:150px;
 }
