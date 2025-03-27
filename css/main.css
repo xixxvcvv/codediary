@@ -18,6 +18,7 @@
   background:#ddd;
 }
 .month>li:hover .day{
+  display:block;
   height: 100%;
   opacity:1;
 }
@@ -25,6 +26,7 @@
 .day{
   height:0;
   opacity:0;
+  display:none;
   transition:.5s ease;
 }
 .day>li>a{
@@ -33,5 +35,5 @@
   padding:5px 0;
 }
 .day>li>a:hover{
-  background:#ddd; color:#fff;
+  background:#ccc; color:#fff;
 }
