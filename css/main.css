@@ -29,8 +29,9 @@
 }
 .day>li>a{
   background:#eee;
-}
-.day>li>a{
   text-align:center;
   padding:5px 0;
+}
+.day>li>a:hover{
+  background:#ddd; color:#fff;
 }
