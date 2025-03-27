@@ -10,7 +10,7 @@
 }
 
 section{
-  display:flex;
+  display:flex; gap:20px;
 }
 
 .month>li{
@@ -40,4 +40,8 @@ section{
 }
 .day>li>a:hover{
   background:#ccc; color:#fff;
+}
+
+.content-diary{
+  background:#f80;
 }

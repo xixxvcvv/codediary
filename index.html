@@ -6,6 +6,12 @@
     <title>codeDiary</title>
     <link rel=stylesheet href="css/style.css">
     <link rel=stylesheet href="css/main.css">
+    <script src="./js/jquery-3.7.1.min.map"></script>
+    <script>
+        $(function(){
+            $("#diary").load("2025mar26.html, #mar26-2025");
+        });
+    </script>
 </head>
 <body>
     <div class="main-wrap">
@@ -28,7 +34,8 @@
                 </ul>
             </div>
             <div class="content-diary">
-    
+                <p>오늘의 일기 끝</p>
+                <div id="diary"></div>
             </div>
         </section>
     </div>
