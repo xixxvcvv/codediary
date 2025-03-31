@@ -3,10 +3,14 @@
 .main-wrap{
   width:1300px; margin:0 auto;
 }
+.main-wrap>h1{
+  width:100%;
+}
 .main-wrap>h2{
-  background:#eee;
+  width:100%;
   padding:5px 0 5px 10px;
   margin:0 0 5px 0;
+  background:#eee;
 }
 
 section{
