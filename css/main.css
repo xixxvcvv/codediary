@@ -43,7 +43,8 @@ section{
 }
 
 .content-diary{
-  height:100vh;
+  height:80vh;
   width:100vw;
-  background:#f80;
+  padding:15px;
+  background:#f6f6f6;
 }
