@@ -22,9 +22,12 @@ section{
   width:150px;
 }
 .month>li>a{
-  padding:10px 0;
-  width:100%; text-align:center;
+  padding:10px 0 10px 20px;
+  width:100%;
   background:#ddd;
+}
+.month>li:nth-child(even)>a{
+  background:#eee;
 }
 
 .month>li:hover>a{
@@ -46,8 +49,8 @@ section{
 }
 .day>li>a{
   background:#eee;
-  text-align:center;
-  padding:5px 0;
+  text-align:left;
+  padding:5px 0 5px 30px;
 }
 .day>li>a:hover{
   background:#ccc; color:#fff;
