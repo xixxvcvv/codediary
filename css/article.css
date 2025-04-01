@@ -8,7 +8,7 @@
   .wrap p {
     color: #444;
   }
-
+  h1 a{font-size:28px; letter-spacing:-0.05em;text-transform:capitalize;}
   .header {
     display: flex;
     align-items: center;
