@@ -18,12 +18,17 @@ section{
 }
 
 .month>li{
+  position: relative;
   width:150px;
 }
 .month>li>a{
   padding:10px 0;
   width:100%; text-align:center;
   background:#ddd;
+}
+
+.month>li:hover>a{
+  background: #ccc;
 }
 .month>li:hover .day{
   display:block;
@@ -32,6 +37,8 @@ section{
 }
 
 .day{
+  position:absolute;left:0;top:40px;
+  width:100%;z-index:1;
   height:0;
   opacity:0;
   display:none;
