@@ -15,7 +15,7 @@
     justify-content: space-between;
   }
   .header > p {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
   }
 }
@@ -24,7 +24,7 @@
     width: 95%;
     margin:0 auto;
   }
-  .wrap > p {
+  .wrap p {
     font-size:14px;
     color: #444;
   }
@@ -44,7 +44,7 @@
     width: 95%;
     margin: 0 auto;
   }
-  .wrap > p {
+  .wrap p {
     font-size:14px;
     color: #444;
   }
