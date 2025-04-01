@@ -6,17 +6,30 @@
     <title>codeDiary</title>
     <link rel=stylesheet href="css/style.css">
     <link rel=stylesheet href="css/main.css">
-    <script src="./js/jquery-3.7.1.min.map"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script>
         $(function(){
-            $("#diary").load("2025mar26.html, #mar26-2025");
+            $('.trigger').click(function(){
+                $('.menu-date > .month').toggleClass('on');
+                $('.trigger .t1').toggleClass('r1');
+                $('.trigger .t2').toggleClass('r2');
+                $('.trigger .t3').toggleClass('r3');
+            });
+
         });
     </script>
 </head>
 <body>
     <div class="main-wrap">
-        <h1>hello world!!!!</h1>
-        <h2>Diary</h2>
+        <h1>hello world<span>!!!!</span></h1>
+        <div class="menu-bar">
+            <h2>Diary</h2>
+            <div class="trigger">
+                <div class="t1"></div>
+                <div class="t2"></div>
+                <div class="t3"></div>
+            </div>
+        </div>
         <section>
             <div class="menu-date">
                 <ul class="month">
