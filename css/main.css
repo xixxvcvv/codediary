@@ -37,46 +37,45 @@
   section{
     display:flex; gap:20px;
   }
-  
-  .month>li{
-    position: relative;
+  .month{
     width:150px;
   }
-  .month>li>a{
-    padding:10px 0 10px 20px;
+  .month>li{
+    position: relative;
     width:100%;
+  }
+  .month>li>a{
+    width:100%; padding:10px 0 10px 10px;
     background:#ddd;
   }
   .month>li:nth-child(even)>a{
     background:#eee;
   }
-  
   .month>li:hover>a{
     background: #ccc;
   }
   .month>li:hover .day{
-    display:block;
-    height: 100%;
     opacity:1;
   }
-  
   .day{
+    display:flex;
     position:absolute;left:0;top:48.7px;
     width:100%;z-index:1;
     height:0;
     opacity:0;
-    display:none;
     transition:.5s ease;
   }
+
+  .day>li{
+    width:100%;
+  }
   .day>li>a{
+    padding:10px 0;
     background:#eee;
-    text-align:left;
-    padding:5px 0 5px 30px;
   }
   .day>li>a:hover{
     background:#bbb; color:#fff;
   }
-  
   .content-diary{
     height:80vh;
     width:100vw;
