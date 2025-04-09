@@ -54,23 +54,24 @@
   .month>li:hover>a{
     background: #ccc;
   }
-  .month>li:hover .day{
+  .month>li:hover>.day{
+    display:flex; flex-wrap: wrap;
     opacity:1;
   }
-  .day{
-    display:flex;
+  .month>li>.day{
+    display:none;
     position:absolute;left:0;top:48.7px;
     width:100%;z-index:1;
-    height:0;
     opacity:0;
     transition:.5s ease;
   }
 
   .day>li{
-    width:100%;
+    width:33.3%;
   }
   .day>li>a{
     padding:10px 0;
+    text-align:center;
     background:#eee;
   }
   .day>li>a:hover{
@@ -141,24 +142,24 @@
   .month>li:hover>a{
     background: #ccc;
   }
-  .month>li:hover .day{
-    display:block;
-    height: 100%;
+  .month>li:hover>.day{
+    display:flex; flex-wrap: wrap;
     opacity:1;
   }
-  
-  .day{
-    position:absolute;left:0;top:40px;
-    width:100%;z-index:2;
-    height:0;
-    opacity:0;
+  .month>li>.day{
     display:none;
+    position:absolute;left:0;top:48.7px;
+    width:100%;z-index:1;
+    opacity:0;
     transition:.5s ease;
   }
+  .day>li{
+    width:33.3%;
+  }
   .day>li>a{
+    padding:10px 0;
+    text-align:center;
     background:#eee;
-    font-size:16px; text-align:left;
-    padding:5px 0 5px 30px;
   }
   .day>li>a:hover{
     background:#bbb; color:#fff;
@@ -236,24 +237,24 @@
   .month>li:hover>a{
     background: #ccc;
   }
-  .month>li:hover .day{
-    display:block;
-    height: 100%;
+  .month>li:hover>.day{
+    display:flex; flex-wrap: wrap;
     opacity:1;
   }
-  
-  .day{
-    position:absolute;left:0;top:40px;
-    width:100%;z-index:2;
-    height:0;
-    opacity:0;
+  .month>li>.day{
     display:none;
+    position:absolute;left:0;top:48.7px;
+    width:100%;z-index:1;
+    opacity:0;
     transition:.5s ease;
   }
+  .day>li{
+    width:33.3%;
+  }
   .day>li>a{
+    padding:10px 0;
+    text-align:center;
     background:#eee;
-    font-size:16px; text-align:left;
-    padding:5px 0 5px 30px;
   }
   .day>li>a:hover{
     background:#bbb; color:#fff;
