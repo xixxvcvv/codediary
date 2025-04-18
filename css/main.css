@@ -289,7 +289,12 @@
     height:80vh;
     width:100%;
     padding:15px;
-    background:#f6f6f6;
     opacity:1;
   }  
+  .content-diary>p{
+    width:90%; margin:0 auto;
+    padding:15px;
+    background:#f6f6f6;
+    border-radius:10px;
+  }
 }
