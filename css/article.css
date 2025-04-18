@@ -24,6 +24,18 @@
     background:#f5f5f5;
     border-radius:10px;
   }
+  .definition{
+    padding:10px;
+    margin:0 0 10px 0;
+    background:#f0f0f0;
+    border-radius:10px;
+  }
+  .mind{
+    padding:10px;
+    margin:0 0 10px 0;
+    background:#f5f5f5;
+    border-radius:10px;
+  }
 }
 @media screen and (min-width: 700px) and (max-width: 1349px) {
   .wrap {
@@ -46,6 +58,20 @@
   .goal{
     padding:10px;
     margin:0 0 10px 0;
+    background:#f5f5f5;
+    border-radius:10px;
+  }
+  .definition{
+    padding:10px;
+    margin:0 0 10px 0;
+    text-align:center;
+    background:#f0f0f0;
+    border-radius:10px;
+  }
+  .mind{
+    padding:10px;
+    margin:0 0 10px 0;
+    text-align:center;
     background:#f5f5f5;
     border-radius:10px;
   }
@@ -73,6 +99,20 @@
     display:none;
   }
   .goal{
+    padding:10px;
+    margin:0 0 10px 0;
+    text-align:center;
+    background:#f5f5f5;
+    border-radius:10px;
+  }
+  .definition{
+    padding:10px;
+    margin:0 0 10px 0;
+    text-align:center;
+    background:#f0f0f0;
+    border-radius:10px;
+  }
+  .mind{
     padding:10px;
     margin:0 0 10px 0;
     text-align:center;
