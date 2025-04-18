@@ -55,15 +55,16 @@
     background: #ccc;
   }
   .month>li:hover>.day{
-    display:flex; flex-wrap: wrap;
     opacity:1;
+    visibility:visible;
   }
   .month>li>.day{
-    display:none;
+    display:flex; flex-wrap: wrap;
     position:absolute;left:0;top:48.7px;
     width:100%;z-index:1;
     opacity:0;
-    transition:.5s ease;
+    visibility:hidden;
+    transition:.6s ease;
   }
 
   .day>li{
@@ -146,15 +147,16 @@
     background: #ccc;
   }
   .month>li:hover>.day{
-    display:flex; flex-wrap: wrap;
     opacity:1;
+    visibility:visible;
   }
   .month>li>.day{
-    display:none;
+    display:flex; flex-wrap: wrap;
     position:absolute;left:0;top:48.7px;
     width:100%;z-index:1;
     opacity:0;
-    transition:.5s ease;
+    visibility:hidden;
+    transition:.6s ease;
   }
   .day>li{
     width:33.3%;
@@ -222,6 +224,7 @@
     position:absolute; left:0; top:20px;
     background:#333;
   }
+  
   section{position:relative;}
   .month{
     position:absolute; right:0; top:0;
@@ -247,15 +250,16 @@
   .month>li:hover>a{
     background: #ccc;
   }
-  .month>li:hover>.day{
-    display:flex; flex-wrap: wrap;
+  .month>li:hover>.day{ 
     opacity:1;
+    visibility:visible;
   }
   .month>li>.day{
-    display:none;
+    display:flex; flex-wrap: wrap;
     position:absolute;left:0;top:48.7px;
     width:100%;z-index:1;
     opacity:0;
+    visibility:hidden;
     transition:.5s ease;
   }
   .day>li{
