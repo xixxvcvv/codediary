@@ -42,6 +42,10 @@
     background:#fcfcfc;
     border-radius:10px;
   }
+  .footer{
+    height:100px;
+    background:#888;
+  }
 }
 @media screen and (min-width: 700px) and (max-width: 1349px) {
   .wrap {
@@ -78,6 +82,16 @@
     margin:0 0 10px 0;
     background:#f5f5f5;
     border-radius:10px;
+  }
+  .biz{
+    padding:10px;
+    margin:0 0 10px 0;
+    background:#fcfcfc;
+    border-radius:10px;
+  }
+  .footer{
+    height:100px;
+    background:#888;
   }
 }
 
@@ -122,5 +136,15 @@
     text-align:center;
     background:#f5f5f5;
     border-radius:10px;
+  }
+  .biz{
+    padding:10px;
+    margin:0 0 10px 0;
+    background:#fcfcfc;
+    border-radius:10px;
+  }
+  .footer{
+    height:100px;
+    background:#888;
   }
 }

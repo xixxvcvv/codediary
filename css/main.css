@@ -297,4 +297,9 @@
     background:#f6f6f6;
     border-radius:10px;
   }
+
+  .footer{
+    height:100px;
+    background:#888;
+  }
 }
