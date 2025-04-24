@@ -44,6 +44,13 @@
     border-radius:10px;
     box-shadow:0 0 10px 0 #88888833;
   }
+  .lang{
+    padding:10px;
+    margin:0 0 10px 0;
+    text-align:left;
+    background:#eee;
+    border-radius:10px;
+  }
   .foot{
     height:100px;
     background:#888;
@@ -92,6 +99,13 @@
     background:#fcfcfc;
     border-radius:10px;
     box-shadow:0 0 10px 0 #88888833;
+  }
+  .lang{
+    padding:10px;
+    margin:0 0 10px 0;
+    text-align:left;
+    background:#eee;
+    border-radius:10px;
   }
   .foot{
     height:100px;
@@ -149,6 +163,13 @@
     background:#fcfcfc;
     border-radius:10px;
     box-shadow:0 0 10px 0 #88888833;
+  }
+  .lang{
+    padding:10px;
+    margin:0 0 10px 0;
+    text-align:left;
+    background:#eee;
+    border-radius:10px;
   }
   .foot{
     height:100px;
