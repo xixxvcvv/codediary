@@ -51,6 +51,9 @@
     background:#eee;
     border-radius:10px;
   }
+  .lang h4{
+    text-align:center;
+  }
   .foot{
     height:100px;
     background:#888;
