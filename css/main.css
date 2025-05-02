@@ -153,8 +153,8 @@
   }
   .month>li>.day{
     display:flex; flex-wrap: wrap;
-    position:absolute;left:0;top:48.7px;
-    width:100%;z-index:1;
+    position:absolute;left:1px;top:49.8px;
+    width:148px; z-index:1;
     opacity:0;
     visibility:hidden;
     transition:.2s ease-in-out;
@@ -258,8 +258,8 @@
   }
   .month>li>.day{
     display:flex; flex-wrap: wrap;
-    position:absolute;left:0;top:48.7px;
-    width:100%;z-index:1;
+    position:absolute;left:1px;top:49.8px;
+    width:148px; z-index:1;
     opacity:0;
     visibility:hidden;
     transition:.2s ease-in-out;
