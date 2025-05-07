@@ -299,6 +299,13 @@
     background:#f6f6f6;
     border-radius:10px;
   }
+  .lang{
+    padding:10px;
+    margin:0 0 10px 0;
+    text-align:left;
+    background:#eee;
+    border-radius:10px;
+  }
 
   .foot{
     height:100px;
