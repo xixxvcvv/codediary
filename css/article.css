@@ -18,24 +18,18 @@
     font-size: 16px;
     font-weight: 400;
   }
-  .goal{
+  .goal .think{
     padding:10px;
     margin:0 0 10px 0;
     background:#eee;
     border-radius:10px;
   }
-  .definition{
+  .mind .book .definition{
     padding:10px;
     margin:0 0 10px 0;
     background:#fcfcfc;
     border-radius:10px;
     box-shadow:0 0 10px 0 #88888833;
-  }
-  .mind{
-    padding:10px;
-    margin:0 0 10px 0;
-    background:#eee;
-    border-radius:10px;
   }
   .biz{
     padding:10px;
