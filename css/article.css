@@ -18,36 +18,20 @@
     font-size: 16px;
     font-weight: 400;
   }
-  .goal, .think{
+  .goal, .think, .lang{
     padding:10px;
     margin:0 0 10px 0;
     background:#eee;
     border-radius:10px;
   }
-  .mind, .book, .definition{
+  .mind, .book, .definitionㄹ, .biz{
     padding:10px;
     margin:0 0 10px 0;
     background:#fcfcfc;
     border-radius:10px;
     box-shadow:0 0 10px 0 #88888833;
   }
-  .biz{
-    padding:10px;
-    margin:0 0 10px 0;
-    background:#fcfcfc;
-    border-radius:10px;
-    box-shadow:0 0 10px 0 #88888833;
-  }
-  .lang{
-    padding:10px;
-    margin:0 0 10px 0;
-    text-align:left;
-    background:#eee;
-    border-radius:10px;
-  }
-  .lang h4{
-    text-align:center;
-  }
+  
   .foot{
     height:100px;
     background:#888;
@@ -71,33 +55,20 @@
     font-size: 14px;
     font-weight: 400;
   }
-  .goal, .think{
+  .goal, .think, .biz{
     padding:10px;
     margin:0 0 10px 0;
     background:#eee;
     border-radius:10px;
   }
-  .mind, .book, .definition{
+  .mind, .book, .definition, .lang{
     padding:10px;
     margin:0 0 10px 0;
     background:#fcfcfc;
     border-radius:10px;
     box-shadow:0 0 10px 0 #88888833;
   }
-  .biz{
-    padding:10px;
-    margin:0 0 10px 0;
-    background:#fcfcfc;
-    border-radius:10px;
-    box-shadow:0 0 10px 0 #88888833;
-  }
-  .lang{
-    padding:10px;
-    margin:0 0 10px 0;
-    text-align:left;
-    background:#eee;
-    border-radius:10px;
-  }
+
   .foot{
     height:100px;
     background:#888;
@@ -125,34 +96,20 @@
   .header > p > span{
     display:none;
   }
-  .goal, .think{
+  .goal, .think, .biz{
     padding:10px;
     margin:0 0 10px 0;
     background:#eee;
     border-radius:10px;
   }
-  .mind, .book, .definition{
+  .mind, .book, .definition, .lang{
     padding:10px;
     margin:0 0 10px 0;
     background:#fcfcfc;
     border-radius:10px;
     box-shadow:0 0 10px 0 #88888833;
   }
-  .biz{
-    padding:10px;
-    margin:0 0 10px 0;
-    text-align:center;
-    background:#fcfcfc;
-    border-radius:10px;
-    box-shadow:0 0 10px 0 #88888833;
-  }
-  .lang{
-    padding:10px;
-    margin:0 0 10px 0;
-    text-align:left;
-    background:#eee;
-    border-radius:10px;
-  }
+
   .foot{
     height:100px;
     background:#888;
