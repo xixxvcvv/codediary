@@ -293,6 +293,9 @@
     padding:15px;
     opacity:1;
   }  
+  .content-diary>h4{
+    margin:0 auto;
+  }
   .content-diary>p{
     width:90%; margin:0 auto;
     padding:15px;
