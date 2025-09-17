@@ -294,7 +294,7 @@
     opacity:1;
   }  
   .content-diary>h4{
-    margin:0 auto;
+    text-align: center;
   }
   .content-diary>p{
     width:90%; margin:0 auto;
